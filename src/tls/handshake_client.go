@@ -12,12 +12,13 @@ import (
 	"crypto/subtle"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io"
 	"net"
 	"strconv"
 	"strings"
 	"sync/atomic"
+
+	"github.com/whiskerman/gm-tls/src/x509"
 )
 
 type clientHandshakeState struct {

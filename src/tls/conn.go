@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lizhenyu0128/gm-tls/src/x509"
+	"github.com/whiskerman/gm-tls/src/x509"
 )
 
 // A Conn represents a secured connection.

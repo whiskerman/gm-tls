@@ -10,8 +10,9 @@ import (
 	"encoding/asn1"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/sm2"
 	"math/big"
+
+	"github.com/whiskerman/gm-tls/src/sm2"
 )
 
 const ecPrivKeyVersion = 1

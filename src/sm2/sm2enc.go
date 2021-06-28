@@ -10,10 +10,11 @@ import (
 	"encoding/asn1"
 	"encoding/binary"
 	"errors"
-	"github.com/lizhenyu0128/gm-tls/src/sm3"
 	"io"
 	"math"
 	"math/big"
+
+	"github.com/whiskerman/gm-tls/src/sm3"
 )
 
 var EncryptionErr = errors.New("sm2: encryption error")

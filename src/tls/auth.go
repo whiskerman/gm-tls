@@ -11,7 +11,8 @@ import (
 	"encoding/asn1"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/sm2"
+
+	"github.com/whiskerman/gm-tls/src/sm2"
 )
 
 // pickSignatureAlgorithm selects a signature algorithm that is compatible with

@@ -13,8 +13,9 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/sm3"
 	"hash"
+
+	"github.com/whiskerman/gm-tls/src/sm3"
 )
 
 // Split a premaster secret in two as specified in RFC 4346, section 5.

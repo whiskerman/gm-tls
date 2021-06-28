@@ -11,13 +11,14 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io"
 	"math/big"
 	"net"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/whiskerman/gm-tls/src/x509"
 )
 
 const (

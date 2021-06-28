@@ -24,8 +24,6 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/sm2"
-	"github.com/lizhenyu0128/gm-tls/src/sm3"
 	"hash"
 	"io"
 	"math/big"
@@ -33,6 +31,9 @@ import (
 	"reflect"
 	"strconv"
 	"time"
+
+	"github.com/whiskerman/gm-tls/src/sm2"
+	"github.com/whiskerman/gm-tls/src/sm3"
 )
 
 // pkixPublicKey reflects a PKIX public key structure. See SubjectPublicKeyInfo

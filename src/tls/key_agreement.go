@@ -11,9 +11,10 @@ import (
 	"crypto/rsa"
 	"crypto/sha1"
 	"errors"
-	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io"
 	"math/big"
+
+	"github.com/whiskerman/gm-tls/src/x509"
 
 	"golang.org/x/crypto/curve25519"
 )

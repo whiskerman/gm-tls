@@ -11,13 +11,14 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/sm2"
-	"github.com/lizhenyu0128/gm-tls/src/sm3"
-	"github.com/lizhenyu0128/gm-tls/src/sm4"
-	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io/ioutil"
 	"strings"
 	"sync"
+
+	"github.com/whiskerman/gm-tls/src/sm2"
+	"github.com/whiskerman/gm-tls/src/sm3"
+	"github.com/whiskerman/gm-tls/src/sm4"
+	"github.com/whiskerman/gm-tls/src/x509"
 )
 
 const VersionGMSSL = 0x0101 // GM/T 0024-2014

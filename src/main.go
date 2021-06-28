@@ -7,12 +7,13 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/lizhenyu0128/gm-tls/src/tls"
-	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io/ioutil"
 	"net"
 	"net/http"
 	"time"
+
+	"github.com/whiskerman/gm-tls/src/tls"
+	"github.com/whiskerman/gm-tls/src/x509"
 )
 
 func main() {

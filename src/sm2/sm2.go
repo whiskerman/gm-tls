@@ -8,9 +8,10 @@ package sm2
 import (
 	"crypto"
 	"crypto/elliptic"
-	"github.com/lizhenyu0128/gm-tls/src/sm3"
 	"io"
 	"math/big"
+
+	"github.com/whiskerman/gm-tls/src/sm3"
 )
 
 type PublicKey struct {
